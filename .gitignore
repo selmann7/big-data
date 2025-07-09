@@ -1,0 +1,36 @@
+# Java derleme çıktıları
+/target/
+*.class
+
+# Maven local ayar dosyaları
+log/
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# IntelliJ IDEA dosyaları
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# OS bağımlı dosyalar
+.DS_Store
+Thumbs.db
+
+# Uygulama config / environment
+.env
+application-local.yml
+application-dev.yml
+application-prod.yml
+application.yml
+application.properties
+*.log
+
+# Test çıktıları
+/test-output/
+
+# PostgreSQL & Elasticsearch
+*.db
+*.pgsql
+*.esdata
